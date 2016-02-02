@@ -1,0 +1,38 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "利用webpack+react写的一个小demo",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./assets/server.js"
+  },
+  "author": "renwenqing",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint-plugin-react": "^3.6.2",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "jquery": "^2.1.4",
+    "less": "^2.3.1",
+    "less-loader": "^2.2.2",
+    "node-fetch": "^1.3.3",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-hot-loader": "^1.3.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.3.7",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "less-loader": "^2.2.2",
+    "react-dropzone": "^3.3.0",
+    "style-loader": "^0.13.0"
+  }
+}
