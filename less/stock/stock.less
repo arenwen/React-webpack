@@ -1,0 +1,96 @@
+@import url('../common');
+
+.stocks{
+    .stock-header{
+        height: 74.5px;
+        border-bottom: 1.5px solid #D93600;
+        margin-bottom: 15px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-flow: row;
+        .stock-header-left{
+            flex:1;
+            -moz-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            margin-left: 1.5%;
+            span{
+                color:#D93600;
+                font-size: 22px;
+                position: relative;
+                top: 20px;
+                left:9px;
+            }
+            img{
+                width: 22px;
+                position: relative;
+                top: 29px;
+            }
+        }
+        .stock-header-right{
+            flex:5;
+            -webkit-box-flex: 5;
+            -moz-box-flex: 5;
+            -webkit-flex: 5;
+            -ms-flex: 5;
+            flex: 5;
+            div{
+                height: 44px;
+                border: 1px solid #D93600;
+                background: #fff;
+                border-radius: 5px;
+                position: relative;
+                top: 17px;
+                margin-right: 1.5%;
+                input{
+                    height: 44px;
+                    text-align: center;
+                    border: none;
+                    width: 100px;
+                    margin: 0 auto;
+                    display: block;
+                    outline: none;
+                }
+                .search{
+                    display: inline-block;
+                    width: 90px;
+                    height: 44px;
+                    background: #D93600;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    text-align: center;
+                    line-height: 44px;
+                    img{
+                        width: 33px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+    .stocks-details{
+        width: 98%;
+        margin: 0 auto;
+        .stockDeta{
+            min-width: 100%;
+            width: 100px;
+            border: 0;
+            height: 660px;
+        }
+    }
+    .stocks-detail{
+        width: 98%;
+        margin: 0 auto;
+        iframe{
+            min-width: 100%;
+            width: 100px;
+            border: 0;
+            height: 660px;
+        }
+    }
+}
